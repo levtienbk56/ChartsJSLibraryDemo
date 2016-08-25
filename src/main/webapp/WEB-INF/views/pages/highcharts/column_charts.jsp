@@ -17,7 +17,8 @@
 	rel="stylesheet">
 
 <!-- Custom CSS -->
-<link href="/ChartsJSLibraryDemo/resources/css/shop-homepage.css" rel="stylesheet">
+<link href="/ChartsJSLibraryDemo/resources/css/shop-homepage.css"
+	rel="stylesheet">
 
 </head>
 
@@ -40,9 +41,10 @@
 			<div class="collapse navbar-collapse"
 				id="bs-example-navbar-collapse-1">
 				<ul class="nav navbar-nav">
-					<li><a href="#">About</a></li>
-					<li><a href="#">Services</a></li>
-					<li><a href="#">Contact</a></li>
+					<li><a href="/ChartsJSLibraryDemo/highcharts">Highcharts</a></li>
+					<li><a href="/ChartsJSLibraryDemo/googlecharts">Google
+							Charts</a></li>
+					<li><a href="/ChartsJSLibraryDemo/d3charts">D3 Charts</a></li>
 				</ul>
 			</div>
 			<!-- /.navbar-collapse -->
@@ -58,10 +60,10 @@
 			<div class="col-md-3">
 				<p class="lead">Shop Name</p>
 				<div class="list-group">
-					<a href="/ChartsJSLibraryDemo/highcharts/column-charts"
-						class="list-group-item">Column and Bar Charts</a> <a
-						href="/ChartsJSLibraryDemo/highcharts/line-charts"
+					<a href="/ChartsJSLibraryDemo/highcharts/line-charts"
 						class="list-group-item">Line Charts</a> <a
+						href="/ChartsJSLibraryDemo/highcharts/column-charts"
+						class="list-group-item">Column and Bar Charts</a> <a
 						href="/ChartsJSLibraryDemo/highcharts/area-charts"
 						class="list-group-item">Area Charts</a>
 				</div>
@@ -69,10 +71,29 @@
 			</div>
 
 			<div class="col-md-9">
+				<!-- basic column chart -->
 				<div class="panel panel-default">
-					<div class="panel-heading">Panel Heading</div>
+					<div class="panel-heading">Basic Column Chart</div>
 					<div class="panel-body">
-						<div id="stacked-chart-container"
+						<div id="column-chart-container-1"
+							style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+					</div>
+				</div>
+
+				<!-- stacked chart -->
+				<div class="panel panel-default">
+					<div class="panel-heading">Stacked Chart</div>
+					<div class="panel-body">
+						<div id="column-chart-container-2"
+							style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+					</div>
+				</div>
+
+				<!-- population pyramid chart -->
+				<div class="panel panel-default">
+					<div class="panel-heading">Population Pyramid Chart</div>
+					<div class="panel-body">
+						<div id="column-chart-container-3"
 							style="min-width: 310px; height: 400px; margin: 0 auto"></div>
 					</div>
 				</div>
@@ -108,7 +129,9 @@
 		src="/ChartsJSLibraryDemo/resources/bower_components/highcharts/highcharts.js"></script>
 	<script
 		src="/ChartsJSLibraryDemo/resources/bower_components/highcharts/modules/exporting.js"></script>
-	<script src="/ChartsJSLibraryDemo/resources/js/highcharts.js"></script>
+	<script src="http://highcharts.github.io/export-csv/export-csv.js"></script>
+	<script
+		src="/ChartsJSLibraryDemo/resources/js/highcharts/highcharts.js"></script>
 </body>
 
 </html>

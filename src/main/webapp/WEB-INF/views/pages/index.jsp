@@ -41,9 +41,9 @@
 			<div class="collapse navbar-collapse"
 				id="bs-example-navbar-collapse-1">
 				<ul class="nav navbar-nav">
-					<li><a href="#">About</a></li>
-					<li><a href="#">Services</a></li>
-					<li><a href="#">Contact</a></li>
+					<li><a href="/ChartsJSLibraryDemo/highcharts">Highcharts</a></li>
+					<li><a href="/ChartsJSLibraryDemo/googlecharts">Google Charts</a></li>
+					<li><a href="/ChartsJSLibraryDemo/d3charts">D3 Charts</a></li>
 				</ul>
 			</div>
 			<!-- /.navbar-collapse -->
@@ -53,32 +53,9 @@
 
 	<!-- Page Content -->
 	<div class="container">
-
-		<div class="row">
-			<!-- left menu -->
-			<div class="col-md-3">
-				<p class="lead">Shop Name</p>
-				<div class="list-group">
-					<a href="/ChartsJSLibraryDemo/highcharts/column-charts"
-						class="list-group-item">Column and Bar Charts</a> <a
-						href="/ChartsJSLibraryDemo/highcharts/line-charts"
-						class="list-group-item">Line Charts</a> <a href="#"
-						class="list-group-item">Area Charts</a>
-				</div>
-				<!-- ./col-md-3 -->
-			</div>
-
-			<div class="col-md-9">
-				<div class="panel panel-default">
-					<div class="panel-heading">Panel Heading</div>
-					<div class="panel-body">
-						<div id="stacked-chart-container"
-							style="min-width: 310px; height: 400px; margin: 0 auto"></div>
-					</div>
-				</div>
-				<!-- /.col-md-9 -->
-			</div>
-		</div>
+		<h3>Hello World!</h3>
+		<h3>This demo try to use some kind of chart JS lib</h3>
+		<h3>enjoy</h3>
 	</div>
 	<!-- /.container -->
 
